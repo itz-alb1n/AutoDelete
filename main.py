@@ -41,7 +41,7 @@ async def delete(user, message):
 
 @User.on_message(filters.regex("!start") & filters.private)
 async def start(user, message):
-    await message.reply("Hi, I'm alive!")
+    await message.reply("Sorry, You are not authorised to use me..!")
 
 #==========================================================
 
